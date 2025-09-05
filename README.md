@@ -35,18 +35,46 @@ python index.py
 - `historique_traductions.txt` : Historique des traductions.
 - `main.py` : Variante ou ancienne version de l'application.
 
+## Création d'un environnement Python et installation des dépendances
+
+1. **Créer un environnement virtuel** (recommandé) :
+
+```powershell
+python -m venv venv
+```
+
+2. **Activer l'environnement** :
+
+Sous Windows PowerShell :
+
+```powershell
+.\venv\Scripts\Activate.ps1
+```
+
+Sous Windows CMD :
+
+```cmd
+venv\Scripts\activate.bat
+```
+
+Sous Linux/Mac :
+
+```bash
+source venv/bin/activate
+```
+
+3. **Installer les paquets nécessaires** :
+
+```powershell
+pip install pyperclip translate
+```
+
 ## Dépendances
 
 - Python 3.x
 - `tkinter` (inclus avec Python)
 - `pyperclip`
 - `translate`
-
-Installez les dépendances avec :
-
-```powershell
-pip install pyperclip translate
-```
 
 ## Remarques
 
